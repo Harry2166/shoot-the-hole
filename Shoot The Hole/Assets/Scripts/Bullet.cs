@@ -14,6 +14,7 @@ public class Bullet : MonoBehaviour
     {
         if (transform.position.y > 5.5f || transform.position.y < -5.5f)
         {
+            Debug.Log(transform.position.y);
             Destroy(this.gameObject);
         }
     }
