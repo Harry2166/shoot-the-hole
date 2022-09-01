@@ -13,7 +13,7 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update() {
 
-        if ((Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.F)))
+        if ((Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space)))
         {
             Shoot();
             //isCollected = false;
