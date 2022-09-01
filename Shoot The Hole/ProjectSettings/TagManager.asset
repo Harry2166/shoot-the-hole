@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Projectile
+  - Goal
+  - Barrier
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Circle 1
+    uniqueID: 466902341
+    locked: 0
+  - name: ' Circle 2'
+    uniqueID: 2808263333
+    locked: 0
+  - name: Player
+    uniqueID: 1649909457
     locked: 0
