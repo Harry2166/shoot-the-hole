@@ -36,7 +36,6 @@ public class Bullet : MonoBehaviour
             } else
             {
                 createBullet();
-                Debug.Log("You failed!");
             }
         }
     }

@@ -7,6 +7,7 @@ public class ScoreCounter : MonoBehaviour
 {
     public int score = 0;
     [SerializeField] private TextMeshProUGUI TextElement;
+    public Rotation Rotation;
 
     private void Start()
     {
