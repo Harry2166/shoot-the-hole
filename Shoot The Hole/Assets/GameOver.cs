@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
@@ -14,4 +15,17 @@ public class GameOver : MonoBehaviour
         gameObject.SetActive(true);
         pointsText.text = "Score: " + score.ToString();
     }
+
+    public void RestartButton()
+    {
+        SceneManager.LoadScene("main");
+        Time.timeScale = 1;
+    }
+
+    public void ExitButton()
+    {
+        Debug.Log("Quit!");
+        Application.Quit();
+    }
+
 }
